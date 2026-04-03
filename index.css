@@ -1,0 +1,134 @@
+:root,
+.sn-theme {
+  --ctp-rosewater: #f4dbd6;
+  --ctp-flamingo: #f0c6c6;
+  --ctp-pink: #f5bde6;
+  --ctp-mauve: #c6a0f6;
+  --ctp-red: #ed8796;
+  --ctp-maroon: #ee99a0;
+  --ctp-peach: #f5a97f;
+  --ctp-yellow: #eed49f;
+  --ctp-green: #a6da95;
+  --ctp-teal: #8bd5ca;
+  --ctp-sky: #91d7e3;
+  --ctp-sapphire: #7dc4e4;
+  --ctp-blue: #8aadf4;
+  --ctp-lavender: #b7bdf8;
+  --ctp-text: #cad3f5;
+  --ctp-subtext1: #b8c0e0;
+  --ctp-subtext0: #a5adcb;
+  --ctp-overlay2: #939ab7;
+  --ctp-overlay1: #8087a2;
+  --ctp-overlay0: #6e738d;
+  --ctp-surface2: #5b6078;
+  --ctp-surface1: #494d64;
+  --ctp-surface0: #363a4f;
+  --ctp-base: #24273a;
+  --ctp-mantle: #1e2030;
+  --ctp-crust: #181926;
+
+  --sn-stylekit-info-color: var(--ctp-sapphire);
+  --sn-stylekit-info-contrast-color: var(--ctp-crust);
+  --sn-stylekit-success-color: var(--ctp-green);
+  --sn-stylekit-success-contrast-color: var(--ctp-crust);
+  --sn-stylekit-warning-color: var(--ctp-yellow);
+  --sn-stylekit-warning-contrast-color: var(--ctp-crust);
+  --sn-stylekit-danger-color: var(--ctp-red);
+  --sn-stylekit-danger-contrast-color: var(--ctp-crust);
+
+  --sn-stylekit-neutral-color: var(--ctp-overlay1);
+  --sn-stylekit-neutral-contrast-color: var(--ctp-text);
+
+  --sn-stylekit-background-color: var(--ctp-base);
+  --sn-stylekit-foreground-color: var(--ctp-text);
+
+  --sn-stylekit-contrast-background-color: var(--ctp-crust);
+  --sn-stylekit-contrast-foreground-color: var(--ctp-text);
+
+  --sn-stylekit-secondary-background-color: var(--ctp-mantle);
+  --sn-stylekit-secondary-foreground-color: var(--ctp-subtext1);
+
+  --sn-stylekit-tertiary-background-color: var(--ctp-surface0);
+  --sn-stylekit-tertiary-foreground-color: var(--ctp-subtext0);
+
+  --sn-stylekit-border-color: var(--ctp-surface1);
+  --sn-stylekit-shadow-color: rgb(0 0 0 / 35%);
+
+  --sn-stylekit-input-placeholder-color: var(--ctp-overlay1);
+  --sn-stylekit-input-background-color: var(--ctp-mantle);
+  --sn-stylekit-input-border-color: var(--ctp-surface1);
+
+  --sn-stylekit-scrollbar-thumb-color: var(--ctp-surface2);
+  --sn-stylekit-scrollbar-track-border-color: var(--ctp-base);
+
+  --sn-stylekit-menu-border-color: var(--ctp-surface1);
+  --sn-stylekit-menu-background-color: var(--ctp-mantle);
+  --sn-stylekit-menu-item-selected-background-color: var(--ctp-surface0);
+  --sn-stylekit-menu-item-selected-foreground-color: var(--ctp-text);
+
+  --sn-stylekit-accessory-tint-color-1: var(--ctp-blue);
+  --sn-stylekit-accessory-tint-color-2: var(--ctp-lavender);
+  --sn-stylekit-accessory-tint-color-3: var(--ctp-mauve);
+  --sn-stylekit-accessory-tint-color-4: var(--ctp-teal);
+  --sn-stylekit-accessory-tint-color-5: var(--ctp-peach);
+  --sn-stylekit-accessory-tint-color-6: var(--ctp-maroon);
+
+  --sn-stylekit-passive-color-0: var(--ctp-text);
+  --sn-stylekit-passive-color-1: var(--ctp-subtext1);
+  --sn-stylekit-passive-color-2: var(--ctp-subtext0);
+  --sn-stylekit-passive-color-3: var(--ctp-overlay2);
+  --sn-stylekit-passive-color-4: var(--ctp-overlay1);
+  --sn-stylekit-passive-color-5: var(--ctp-overlay0);
+
+  --sn-stylekit-highlight-background-color: rgb(138 173 244 / 20%);
+  --sn-stylekit-highlight-foreground-color: var(--ctp-blue);
+}
+
+body,
+#root,
+.sn-component {
+  background-color: var(--sn-stylekit-background-color);
+  color: var(--sn-stylekit-foreground-color);
+}
+
+a,
+.sn-link {
+  color: var(--ctp-blue);
+}
+
+a:hover,
+a:focus,
+.sn-link:hover,
+.sn-link:focus {
+  color: var(--ctp-lavender);
+}
+
+button,
+.btn,
+.btn-info,
+.btn-primary {
+  background: var(--ctp-blue);
+  border-color: var(--ctp-blue);
+  color: var(--ctp-crust);
+}
+
+button:hover,
+.btn:hover,
+.btn-info:hover,
+.btn-primary:hover {
+  background: var(--ctp-lavender);
+  border-color: var(--ctp-lavender);
+}
+
+input,
+textarea,
+select {
+  background: var(--sn-stylekit-input-background-color);
+  color: var(--sn-stylekit-foreground-color);
+  border-color: var(--sn-stylekit-input-border-color);
+}
+
+::selection {
+  background: rgb(198 160 246 / 30%);
+  color: var(--ctp-text);
+}
