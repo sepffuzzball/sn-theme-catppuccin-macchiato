@@ -1,9 +1,20 @@
 {
-  "name": "Catppuccin Macchiato",
   "identifier": "dev.catppuccin.macchiato.standardnotes.theme",
+  "name": "Catppuccin Macchiato",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
   "description": "A Standard Notes theme based on the Catppuccin Macchiato palette.",
-  "url": "https://raw.githubusercontent.com/sepffuzzball/sn-theme-catppuccin-macchiato/1.0.0/index.css"
+  "url": "https://raw.githubusercontent.com/sepffuzzball/sn-theme-catppuccin-macchiato/1.0.0/index.css",
+  "latest_url": "https://raw.githubusercontent.com/sepffuzzball/sn-theme-catppuccin-macchiato/main/ext.json",
+  "download_url": "https://github.com/sepffuzzball/sn-theme-catppuccin-macchiato/archive/1.0.0.zip",
+  "marketing_url": "https://github.com/sepffuzzball/sn-theme-catppuccin-macchiato",
+  "thumbnail_url": "https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#c6a0f6",
+    "foreground_color": "#c6a0f6",
+    "border_color": "#c6a0f6"
+  },
+  "statusBar": "dark-content"
 }
