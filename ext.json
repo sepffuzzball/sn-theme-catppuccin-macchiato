@@ -1,0 +1,9 @@
+{
+  "name": "Catppuccin Macchiato",
+  "identifier": "dev.catppuccin.macchiato.standardnotes.theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A Standard Notes theme based on the Catppuccin Macchiato palette.",
+  "url": "index.css"
+}
