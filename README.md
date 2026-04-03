@@ -2,6 +2,14 @@
 
 A custom Standard Notes theme plugin based on the [Catppuccin Macchiato](https://catppuccin.com/palette/) color palette.
 
+## Install (published)
+
+Use this published manifest URL in Standard Notes:
+
+- `https://raw.githubusercontent.com/sepffuzzball/sn-theme-catppuccin-macchiato/1.0.0/ext.json`
+
+This manifest points to the tagged CSS asset so installs are version-pinned and reproducible.
+
 ## Files
 
 - `ext.json` — Standard Notes extension manifest.

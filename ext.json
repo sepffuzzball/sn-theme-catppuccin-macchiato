@@ -5,5 +5,5 @@
   "area": "themes",
   "version": "1.0.0",
   "description": "A Standard Notes theme based on the Catppuccin Macchiato palette.",
-  "url": "index.css"
+  "url": "https://raw.githubusercontent.com/sepffuzzball/sn-theme-catppuccin-macchiato/1.0.0/index.css"
 }
